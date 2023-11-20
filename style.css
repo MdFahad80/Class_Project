@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+:root{
+    --font-Manrope: 'Manrope', sans-serif;
+    --font-OpenSans: 'Open Sans', sans-serif;
+    --Dark-Blue-color: #0A2640;
+    --header-color: #ffffff;
+    --header-secondary-color: #f1f1f1;
+    --gray-color: #777;
+    --dark-color: #000;
+    --box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.12);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Container */
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+
+/* Start Header Section */
+header{
+    background-color: var(--Dark-Blue-color);
+}
+
+/* Navaigation Var */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 0px 56px 0px;
+}
+
+ul.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+a.nav-link {
+    color: var(--header-color);
+    font-size: var(--font-OpenSans);
+    font-weight: 600;
+    line-height: 28px;
+}
+
+a.nav-link-btn {
+    background: var(--header-color);
+    border: 2px solid var(--header-color);
+    border-radius: 24px;
+    color: var(--Dark-Blue-color);
+    font-family: var(--font-OpenSans);
+    font-weight: 700;
+    line-height: 24px;
+    padding: 8px 40px;
+}
+
+/* End Header Section */
